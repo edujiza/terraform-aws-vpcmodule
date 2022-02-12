@@ -2,7 +2,7 @@ resource "aws_vpc" "terraform-vpc" {
     cidr_block = var.cidr_block
     instance_tenancy = "default"
     tags = {
-        Name = var.vpc_name
+        Name = "v2 ----- name ${var.vpc_name}"
     }
 }
 
